@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F6B27E"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonFive"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonSix"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonEight"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonNine"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonTen"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonEleven"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonTwelve"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonThirteen"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonFourteen"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+        <Button
+            android:id="@+id/buttonFifteen"
+            android:layout_width="40dp"
+            android:layout_height="190dp"
+            android:background="@drawable/button_back"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="Piano Instrument"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.gms.ads.AdView
+
+        android:id="@+id/adView"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:foregroundGravity="center"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1606790808026247/5318792909"
+
+        />
+
+</RelativeLayout>
